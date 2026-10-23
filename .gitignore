@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data and logs
+data/
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite-*
+*.log
+logs/
+
+# Uploads, recordings and backups
+uploads/
+recordings/
+backups/
+*.bak
+*.backup
+*.tar
+*.tar.gz
+*.zip
+
+# Test and tooling artifacts
+coverage/
+playwright-report/
+test-results/
+.vite/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Runtime scratch files
+data/*.json
+data/*.pid
+data/cfjar
+
+# Internal release/audit notes (not part of the public repository)
+internal/
+OPEN_SOURCE_RELEASE_REPORT.md
